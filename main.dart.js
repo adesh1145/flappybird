@@ -35205,7 +35205,7 @@ b4(a){var s=this.da$
 s===$&&A.c()
 switch(s.c.b.a){case 2:case 3:case 0:break
 case 1:s=this.ax.d
-s.AR(s.a[0]-100*a)
+s.AR(s.a[0]-200*a)
 s.a3()
 break}this.tH(a)}}
 A.HL.prototype={
@@ -35272,7 +35272,7 @@ return A.y(null,r)}})
 return A.z($async$aq,r)},
 zK(a){var s,r,q,p,o,n,m,l,k=null
 for(s=t.w,r=t.d,q=0;q<5;++q){p=B.il.It()
-o=Math.max(B.il.It()*400,200)
+o=Math.max(B.il.It()*400,300)
 n=new Float32Array(2)
 n[0]=a+q*400
 n[1]=p*600-300
