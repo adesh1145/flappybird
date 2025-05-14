@@ -55,7 +55,7 @@ class FlappyRootComponent extends Component
     for (int i = 0; i < 5; i++) {
       double area = 600;
       double y = Random().nextDouble() * area - area / 2;
-      double gap = max(Random().nextDouble() * 400, 200);
+      double gap = max(Random().nextDouble() * 400, 300);
       _lastPipePair = PipePair(
           gap: gap,
           position: Vector2(fromX + i * _pipeDistance, y),

@@ -18,7 +18,7 @@ class PipePair extends PositionComponent
   });
   final double gap;
   final double pipeWidth;
-  final double speed = 100;
+  final double speed = 200;
 
   @override
   Future<void> onLoad() {
